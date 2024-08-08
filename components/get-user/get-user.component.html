@@ -1,0 +1,31 @@
+<div class="container">
+  <button class="btn-nuevo" routerLink="/nuevo">Crear usuario</button>
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>NOMBRE</th>
+        <th>CANTIDAD</th>
+        <th>FEES</th>
+        <th>BLOQUE</th>
+        <th>ACCIÓN</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let usuarios of usuarios">
+        <td style="text-align: center;">{{ usuarios.id }}</td>
+        <td style="text-align: center;">{{ usuarios.nombre }}</td>
+        <td style="text-align: center;">{{ usuarios.cant }}</td>
+        <td style="text-align: center;">{{ usuarios.fees }}</td>
+        <td style="text-align: center;">{{ usuarios.block }}</td>
+        <td>
+          <div class="button-container">
+            <button class="btn" routerLink="/usuario/{{usuarios.id}}">Actualizar</button>
+            <button class="btn2" (click)="eliminarUsuario(usuarios.id)">Eliminar</button>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+

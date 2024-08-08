@@ -1,0 +1,25 @@
+<div class="container">
+  <div class="form-container">
+    <p class="back" routerLink="/">Volver</p>
+    <h2 class="form-title">Crear Usuario</h2>
+      <form [formGroup]="formUsuarios">
+        <div class="form-group">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" nombre="nombre" required formControlName="nombre">
+        </div>
+        <div class="form-group">
+          <label for="nombre">Cantidad:</label>
+          <input type="number" id="cant" cant="cant" required formControlName="cant">
+        </div>
+        <div class="form-group">
+          <label for="nombre">Fees:</label>
+          <input type="number" id="fees" fees="fees" required formControlName="fees">
+        </div>
+        <div class="form-group">
+          <label for="nombre">Bloque:</label>
+          <input type="text" id="block" block="block" required formControlName="block">
+        </div>
+        <button type="submit" (click)="nuevoUsuario()">Crear</button>
+      </form>
+  </div>
+</div>

@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-top: 120px;
+  color: #fff;
+}
+
+.form-container{
+  width: 400px;
+  padding: 20px;
+  background-color: rgb(4, 49, 77);
+  border: 1px solid #000;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.99);
+}
+
+.form-group{
+  margin-bottom: 16px;
+}
+
+.form-title{
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 28px;
+}
+
+label{
+  margin-top: 20px;
+  display: block;
+  font-weight: bold;
+  font-family: 'Roboto';
+  font-size: 18px;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 90%;
+  padding: 10px;
+  margin-top: 6px;
+  border: 2px solid #ffffff;
+  border-radius: 14px;
+}
+
+button {
+  width: 320px;
+  background-color: rgb(255, 217, 0);
+  color: #023271;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 40px;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  background-color: rgb(255, 230, 88);
+}
+
+.back {
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  cursor: pointer;
+  color: rgb(255, 217, 0);
+}

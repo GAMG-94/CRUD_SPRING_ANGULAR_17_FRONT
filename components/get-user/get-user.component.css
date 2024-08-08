@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+table {
+  width: 52%;
+  border-collapse: collapse;
+  margin: 20px auto;
+}
+
+th,
+td {
+  border: 1px solid #000;
+  padding: 8px;
+}
+
+th {
+  background-color: rgb(4, 49, 77);
+  color: #fff;
+  font-family: 'Roboto';
+}
+
+td {
+  font-family: 'Roboto';
+}
+
+tr:nth-child(even) {
+  background-color: rgb(32, 61, 78);
+  color: #fff;
+  font-family: 'Roboto';
+}
+
+.btn-nuevo {
+  width: 260px;
+  background-color: rgb(4, 49, 77);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 40px;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.btn-nuevo:hover {
+  background-color: #0058cb;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  background-color: rgb(255, 183, 0);
+  color: #000;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.btn:hover {
+  background-color: rgb(193, 139, 0);
+}
+
+.btn2 {
+  margin-left: 20px;
+  background-color: rgb(218, 1, 1);
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.btn2:hover {
+  background-color: rgb(134, 0, 0);
+}
